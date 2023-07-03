@@ -9,7 +9,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 export class SearchBoxComponent {
 
   @Input()
-  public placeholder:string = '';
+  public placeholder:string = 'AAAAAA';
 
   @Output()
   public onValue = new EventEmitter<string>();
